@@ -2,13 +2,13 @@
 
 ## Description
 
-coffee leaf detection - graduation project for machine learning engineer degree
+Coffee leaf detection - An Web/Mobile application for detect coffee leaf disease by drawing a bounding box around interest
 
 ## Dataset
 
-1. [Coffee leaf disease (Kaggle)](https://www.kaggle.com/datasets/gauravduttakiit/coffee-leaf-diseases)
-2. [RoCoLe dataset](https://datasetninja.com/rocole)
-3. Nematode coffee disease (Raw from local)
+1. [RoCoLe dataset](https://www.sciencedirect.com/science/article/pii/S2352340921004261#sec0007)
+2. Nematode coffee disease (Crawl from internet)
+3. Pink disease (Crawl from internet)
 
 ## Installation
 Create python enviroment for running then [pip](https://pip.pypa.io/en/stable/) install requirements.txt
@@ -19,7 +19,9 @@ pip install -r requirements.txt
 ```
 
 ## Contribution
-
+- Quân Bảo
+- Phúc Anh
+- Hưng Thịnh
 
 ## Lincese
 [MIT](https://choosealicense.com/licenses/mit/)
