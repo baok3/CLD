@@ -1,3 +1,0 @@
-pink_disease
-nematode_disease
-nodisease
