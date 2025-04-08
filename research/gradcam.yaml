@@ -1,0 +1,13 @@
+path: ./CLD/research/data/yolo_bbox_dataset
+
+train: train/
+val: val/
+test: test/
+
+# classes
+names:
+  0: cerscospora
+  1: healthy
+  2: leaf rust
+  3: miner
+  4: phoma
