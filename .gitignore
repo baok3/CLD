@@ -1,6 +1,5 @@
 /research/data/
 /research/model/
-/Application/data_optimize
-/Application/model
+/Application
 /research/runs/
 /research/yolo11n.pt
