@@ -19,6 +19,8 @@ from ultralytics import YOLO
 import pandas as pd
 st.set_page_config(layout="wide")
 from PIL import Image, ImageOps
+
+
 # Device
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 st.sidebar.info(f"Using device: {DEVICE}")
@@ -26,8 +28,8 @@ st.sidebar.info(f"Using device: {DEVICE}")
 # --- IMPORTANT: Paths ---
 # Using relative paths or environment variables is recommended for portability
 # Replace these with your actual paths or use a configuration method
-BASE_DATASET = "E:/App data/data_optimize/Basee_data"  # Example: Use forward slashes or raw strings r"E:\..."
-RARE_DATASET = "E:/App data/data_optimize/Rare data"  # Example: Use forward slashes or raw strings r"E:\..."
+BASE_DATASET = "./data_optimize/Base_data"  # Example: Use forward slashes or raw strings r"E:\..."
+RARE_DATASET = "./data_optimize/Rare data"  # Example: Use forward slashes or raw strings r"E:\..."
 
 # Check if paths exist
 if not os.path.isdir(BASE_DATASET):
@@ -40,7 +42,7 @@ os.makedirs(RARE_DATASET, exist_ok=True)
 #     st.stop()
 
 # Path to the saved model weights - Ensure this exists
-MODEL_WEIGHTS_PATH = "E:/Model save/Deep_learning_model/model/efficientnet_coffee (1).pth" # Example: Use forward slashes
+MODEL_WEIGHTS_PATH = "./efficientnet.pth" # Example: Use forward slashes
 if not os.path.isfile(MODEL_WEIGHTS_PATH):
     st.error(f"Model weights file not found: {MODEL_WEIGHTS_PATH}")
     st.stop()

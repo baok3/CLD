@@ -1,4 +1,10 @@
 /research/data/
 /research/model/
-/research/runs/
-/research/yolo11n.pt
+/research/object_detection_full_data/runs/
+/research/object_detection_full_data/yolo11n.pt
+/research/object_detection_full_data/yolov10n.pt
+/research/object_detection_full_data/yolov5nu.pt
+/research/object_detection_full_data/yolov8n.pt
+/research/object_detection_full_data/yolov9t.pt
+
+
